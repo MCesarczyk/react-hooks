@@ -3,9 +3,16 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "description": "react hooks used in my projects",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsup",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "test": "vitest",
     "coverage": "vitest run --coverage",
@@ -44,6 +51,7 @@
     "happy-dom": "^13.10.1",
     "standard-version": "^9.5.0",
     "storybook": "^8.0.1",
+    "tsup": "^8.0.2",
     "typescript": "^5.2.2",
     "vite": "^5.1.6",
     "vitest": "^1.4.0"
