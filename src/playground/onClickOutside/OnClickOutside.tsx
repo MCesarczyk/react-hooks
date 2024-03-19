@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import "./OnClickOutside.css";
-import { useOnClickOutside } from "./useOnClickOutside";
+import { useOnClickOutside } from "../../main/useOnClickOutside";
 
 export const OnClickOutside = () => {
   const squareRef = useRef<HTMLDivElement>(null);
