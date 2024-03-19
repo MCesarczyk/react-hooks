@@ -1,6 +1,5 @@
 {
   "name": "@mcesarczyk/react-hooks",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
   "description": "react hooks used in my projects",
