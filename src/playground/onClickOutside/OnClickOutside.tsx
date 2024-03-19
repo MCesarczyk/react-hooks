@@ -3,7 +3,7 @@ import "./OnClickOutside.css";
 import { useOnClickOutside } from "../../main/useOnClickOutside";
 
 export const OnClickOutside = () => {
-  const squareRef = useRef<HTMLDivElement>(null);
+  const elementRef = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 
   const flashMessage = () => {
@@ -11,11 +11,11 @@ export const OnClickOutside = () => {
     setTimeout(() => setVisible(false), 1_000);
   };
 
-  useOnClickOutside(squareRef, flashMessage);
+  useOnClickOutside(elementRef, flashMessage);
 
   return (
     <>
-      <div ref={squareRef} className="square">
+      <div ref={elementRef} className="square">
         <h1>click outside</h1>
       </div>
       {visible && <p className="message">clicked outside!</p>}
