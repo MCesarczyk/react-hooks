@@ -1,11 +1,34 @@
 {
   "name": "@mcesarczyk/react-hooks",
   "version": "1.0.1",
-  "type": "module",
   "description": "react hooks used in my projects",
+  "author": "Michał Cesarczyk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCesarczyk/react-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MCesarczyk/react-hooks/issues"
+  },
+  "homepage": "https://github.com/MCesarczyk/react-hooks#readme",
+  "keywords": [
+    "custom-hooks",
+    "typescript",
+    "react"
+  ],
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json",
+    "./dist/*": "./dist/*"
+  },
   "files": [
     "dist"
   ],
@@ -20,24 +43,9 @@
     "build-storybook": "storybook build",
     "release": "standard-version"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MCesarczyk/react-hooks.git"
-  },
-  "keywords": [
-    "custom-hooks",
-    "typescript",
-    "react"
-  ],
-  "author": "Michał Cesarczyk",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MCesarczyk/react-hooks/issues"
-  },
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/MCesarczyk/react-hooks#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
