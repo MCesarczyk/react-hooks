@@ -2,9 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.0.3](https://github.com/MCesarczyk/react-hooks/compare/v1.0.2...v1.0.3) (2024-03-20)
+### 1.0.3 (2024-03-20)
 
-### [1.0.2](https://github.com/MCesarczyk/react-hooks/compare/v1.0.1...v1.0.2) (2024-03-20)
+* Change build method ([d24a761](https://github.com/MCesarczyk/react-hooks/commit/d24a761f4a6c76215f5806c80984a8a1977c4423))
+
+### 1.0.2 (2024-03-20)
+
+* Update exports ([d1346182](https://github.com/MCesarczyk/react-hooks/commit/d134618299221aef8c2b510ed20d3a3feaaa2aa0))
 
 ## 1.0.1 (2024-03-19)
 
